@@ -114,11 +114,11 @@ by the arrows */
    score=score+2;
  }
 
-
-//  if (arrowGroup.isTouching(redB)) {
-//   blueB.destroyEach();
-//   arrowGroup.destroyEach();
-// }
+  if (arrowGroup.isTouching(redB)) {
+   redB.destroyEach();
+  arrowGroup.destroyEach();
+  score=score+4;
+ }
 
 
 //  if (arrowGroup.isTouching(blueB)) {
